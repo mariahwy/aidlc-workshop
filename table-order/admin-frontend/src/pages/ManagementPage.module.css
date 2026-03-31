@@ -1,0 +1,19 @@
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.header h1 { margin: 0; font-size: 1.5rem; }
+.addBtn { padding: 0.5rem 1rem; background: #3b82f6; color: #fff; border: none; border-radius: 6px; cursor: pointer; min-height: 44px; font-size: 0.875rem; }
+.form { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.field { margin-bottom: 1rem; }
+.field label { display: block; margin-bottom: 0.25rem; font-size: 0.875rem; font-weight: 500; }
+.field input, .field select, .field textarea { width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.875rem; box-sizing: border-box; }
+.error { display: block; margin-top: 0.25rem; font-size: 0.75rem; color: #ef4444; }
+.formActions { display: flex; gap: 0.75rem; justify-content: flex-end; }
+.formActions button { padding: 0.5rem 1rem; border: 1px solid #d1d5db; border-radius: 6px; cursor: pointer; min-height: 44px; background: #fff; font-size: 0.875rem; }
+.submitBtn { background: #3b82f6 !important; color: #fff !important; border: none !important; }
+.list { display: flex; flex-direction: column; gap: 0.5rem; }
+.listItem { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; }
+.itemTitle { font-weight: 600; }
+.itemActions { display: flex; gap: 0.5rem; }
+.itemActions button { padding: 0.375rem 0.75rem; border: 1px solid #d1d5db; border-radius: 4px; background: #fff; cursor: pointer; font-size: 0.8rem; min-height: 36px; }
+.dangerBtn { color: #ef4444; border-color: #fca5a5; }
+.twoCol { display: grid; grid-template-columns: 280px 1fr; gap: 1.5rem; }
+@media (max-width: 768px) { .twoCol { grid-template-columns: 1fr; } }

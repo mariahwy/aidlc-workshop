@@ -112,3 +112,81 @@
 **Context**: Functional Design stage completed with approval.
 
 ---
+
+## CONSTRUCTION - Functional Design Unit 3: Admin Frontend (Plan Created)
+**Timestamp**: 2026-03-31T06:00:00Z
+**User Input**: "<admin-frontend>에 대한 construction 단계를 진행해주세요"
+**AI Response**: Created admin-frontend-functional-design-plan.md with 10 steps and 7 clarifying questions covering: dashboard layout, table detail display, category CRUD, store selection, notifications, responsive design, i18n support.
+**Context**: Starting CONSTRUCTION per-unit loop for Unit 3: Admin Frontend. Functional Design Step 1-4 completed.
+
+---
+
+## CONSTRUCTION - Functional Design Unit 3: Admin Frontend (Answers & Artifacts)
+**Timestamp**: 2026-03-31T06:10:00Z
+**User Input**: "완료"
+**AI Response**: Read answers: Q1=B (활성 주문 테이블만 동적 표시), Q2=A (모달), Q3=A (카테고리 전체 CRUD), Q4=C (소유자 매장 전환, 직원 자동 진입), Q5=B (시각+사운드), Q6=C (완전 반응형), Q7=A (한국어 전용). No contradictions. Generated business-logic-model.md (7 sections), business-rules.md (9 rule categories), frontend-components.md (8 page components, 6 common components, API mapping). Updated plan checkboxes.
+**Context**: Functional Design for Admin Frontend completed.
+
+---
+
+## CONSTRUCTION - Functional Design Unit 3: Admin Frontend (Approved)
+**Timestamp**: 2026-03-31T06:15:00Z
+**User Input**: "이제 다음 스텝 진행해줘"
+**AI Response**: Functional design approved. Proceeding to NFR Requirements for Unit 3: Admin Frontend.
+**Context**: Functional Design stage completed with approval.
+
+---
+
+## CONSTRUCTION - NFR Requirements Unit 3: Admin Frontend (Answers & Artifacts)
+**Timestamp**: 2026-03-31T06:20:00Z
+**User Input**: "완료"
+**AI Response**: Read answers: Q1=A (Vite), Q2=B (CSS Modules), Q3=A (Vitest+RTL), Q4=B (TanStack Query), Q5=A (React Router v6), Q6=B (2초 이내), Q7=A (기본 접근성). No contradictions. Generated nfr-requirements.md (7 sections: Performance, Security, Testing, Accessibility, Reliability, Maintainability, Usability) and tech-stack-decisions.md (8 categories). Updated plan checkboxes.
+**Context**: NFR Requirements for Admin Frontend completed.
+
+---
+
+## CONSTRUCTION - NFR Requirements Unit 3: Admin Frontend (Approved)
+**Timestamp**: 2026-03-31T06:25:00Z
+**User Input**: "다음 단계 진행해줘"
+**AI Response**: NFR Requirements approved. Proceeding to NFR Design for Unit 3: Admin Frontend.
+**Context**: NFR Requirements stage completed with approval.
+
+---
+
+## CONSTRUCTION - NFR Design Unit 3: Admin Frontend (Answers & Artifacts)
+**Timestamp**: 2026-03-31T06:30:00Z
+**User Input**: "완료"
+**AI Response**: Read answers: Q1=A (3회+지수백오프), Q2=B (수동+폴링 전환), Q3=B (페이지별 ErrorBoundary). No contradictions. Generated nfr-design-patterns.md (4 pattern categories: Performance, Security, Reliability, Accessibility) and logical-components.md (7 modules: Auth, API, SSE, Error, Notification, Store + directory structure). Updated plan checkboxes.
+**Context**: NFR Design for Admin Frontend completed.
+
+---
+
+## CONSTRUCTION - NFR Design Unit 3: Admin Frontend (Approved)
+**Timestamp**: 2026-03-31T06:35:00Z
+**User Input**: "다음 단계"
+**AI Response**: NFR Design approved. Proceeding to Code Generation for Unit 3: Admin Frontend.
+**Context**: NFR Design stage completed with approval.
+
+---
+
+## CONSTRUCTION - Code Generation Unit 3: Admin Frontend (Plan Created)
+**Timestamp**: 2026-03-31T06:35:00Z
+**AI Response**: Created admin-frontend-code-generation-plan.md with 29 steps across 9 phases: Project Setup (3), Core Infrastructure (6), Common Components (3), API Hooks (1), Page Components (8), App Entry (1), Sound/Hooks (1), Unit Testing (5), Documentation (1). Covers all 7 stories (US-A01~A06, US-S01).
+**Context**: Code Generation Part 1 (Planning) completed. Awaiting user approval.
+
+---
+
+## CONSTRUCTION - Code Generation Unit 3: Admin Frontend (Plan Approved)
+**Timestamp**: 2026-03-31T06:40:00Z
+**User Input**: "승인"
+**AI Response**: Code generation plan approved. Starting code generation Phase 1.
+**Context**: Code Generation Part 2 (Generation) starting.
+
+---
+
+## CONSTRUCTION - Code Generation Unit 3: Admin Frontend (Complete)
+**Timestamp**: 2026-03-31T07:00:00Z
+**AI Response**: Code generation completed. All 29 steps across 9 phases executed. 7 stories (US-A01~A06, US-S01) implemented. Generated files: package.json, tsconfig.json, vite.config.ts, index.html, .eslintrc.cjs, .prettierrc, types/index.ts, utils/format.ts, utils/validation.ts, api/client.ts, contexts/AuthContext.tsx, contexts/StoreContext.tsx, contexts/SSEContext.tsx, components/Layout.tsx, components/Sidebar.tsx, components/Header.tsx, components/RoleGuard.tsx, components/ConfirmDialog.tsx, components/Toast.tsx, components/LoadingSpinner.tsx, components/ErrorBoundary.tsx, components/OfflineBanner.tsx, api/hooks/ (7 modules), pages/ (8 pages), App.tsx, main.tsx, hooks/ (2), tests (3 files with PBT), README.md. All CSS Modules included.
+**Context**: Code Generation for Admin Frontend completed.
+
+---
